@@ -1,0 +1,82 @@
+header{
+    position: absolute;
+    min-width: 100%;
+    width: 1280px; 
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #226ED8;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    color: #FAFAFA;
+    position: absolute;
+    width: 147px;
+    min-width: 100%;
+    height: 45px; /*45*/
+    left: 566px;
+    top: auto; 
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#logo{
+    position: absolute;
+    width: 23.28px;
+    height: 40px;
+    left: 160px;
+    top: 20px;
+}
+
+#light_mode{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1074px;
+    top: 32px;
+
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+
+    color: #FBB910;
+}
+
+#rectangle_yellow{
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 1070px;
+    top: 28px;
+
+    background: linear-gradient(90deg, #FFC93F 0%, #FFC93F 0.01%, #FFE03F 100%);
+    border-radius: 50px;
+}
+
+#rectangle_white{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1072px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}

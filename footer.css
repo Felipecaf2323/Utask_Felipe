@@ -1,0 +1,104 @@
+footer{
+    position: absolute;
+    width: 1280px;
+    height: 50px;
+    left: 0px;
+    top: 670px;
+    min-width: 100%;
+    background: #114FA7;
+}
+
+p{
+    position: absolute;
+    width: 266px;
+    height: 21px;
+    left: 160px;
+    top: auto; /*Aqui era 684px, mas troquei para auto*/
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+#p2{
+    position: absolute;
+    width: 69px;
+    height: 21px;
+    left: 927px;
+    top: auto; /*Aqui era 684px, mas troquei para auto*/
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#coracao{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 988px; /*aqui era 1001px, mas troquei para 990px*/
+    top: 18px; /*aqui era 687px, mas troquei para 18px*/
+
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+
+    color: #FFAFAF;
+}
+
+#p3{
+    position: absolute;
+    width: 115px; /*aqui era 100px, mas coloquei 115px*/
+    height: 21px;
+    left: 1010px; /*aqui era 1021, mas troquei para 1010*/
+    top: auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
