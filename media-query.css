@@ -1,0 +1,289 @@
+@media screen and (max-width: 768px) {
+    html,body{
+        width: 100%;
+    }
+
+    #fundoCinza2, #fundoCinza3, h3, h4{
+        display: none;
+    }
+
+    header{
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    }
+
+    #logo{
+    position: absolute;
+    width: 23.28px;
+    height: 40px;
+    left: 21px;
+    top: 20px;
+    }
+
+    h1{
+    position: absolute;
+    width: 143px;
+    height: 45px;
+    left: 110px;
+    top: 20px;
+    }
+
+    #big_rectangle{
+        position: absolute;
+        width: 287px;
+        height: 60px;
+        left: 44px;
+        top: 110px;
+        background: #FFD569;
+        border-radius: 10px;
+    }
+
+    #frase_do_dia{
+        position: absolute;
+        width: 97px;
+        height: 24px;
+        left: 121px;
+        top: 110px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.017em;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .switch{
+        position: absolute;
+        width: 50px;
+        height: 24px;
+        left: 305px;
+        top: 28px;
+
+        background: linear-gradient(90deg, #FFC93F 0%, #FFC93F 0.01%, #FFE03F 100%);
+        border-radius: 50px;
+    }
+    #lampada{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 77px;
+        top: 129px;
+    }
+
+    #small_rectangle{
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        left: 71px;
+        top: 123px;           
+    }
+
+    #medium_rectangle{
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 66px;
+        top: 118px;
+    }
+    #frase{
+        display: none;
+    }
+    footer{
+        position: absolute;
+        width: 375px;
+        height: 70px;
+        left: 0px;
+        top: 698px;
+    }
+    h2{
+        position: absolute;
+        width: 65px;
+        height: 30px;
+        left: 44px;
+        top: 190px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.025em;
+
+        color: #141414;
+    }
+    #fundoCinza1{
+        position: absolute;
+        width: 287px;
+        height: 396px;
+        left: 44px;
+        top: 238px;
+
+        background: #EEEEEE;
+        border-radius: 10px;
+    }
+    #big_circle{
+        box-sizing: border-box;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 301px;
+        top: 200px;
+    }
+    #rodape{
+        position: absolute;
+        width: 266px;
+        height: 21px;
+        left: 20px;
+        display: flex;
+    }
+    #p2{
+        position: absolute;
+        width: 69px;
+        height: 21px;
+        left: 21px;
+        top: 25px;
+    }
+    #coracao{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 83px;
+        top: 42.3px;
+    }
+    #p3{
+        position: absolute;
+        width: 1000px;
+        height: 21px;
+        left: 105px;
+        top: 22.5px;
+    }
+
+/*modal*/
+    .show{
+        display: block;
+    }
+
+    #fundo-modal.show{
+        position: absolute;
+        width: 474px;
+        height: 421px;
+        left: 50px;
+        top: 0px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        display: flex;
+    }
+
+    #direita{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 335px;
+        top: 422px;
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;    
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.017em;
+        color: #226ED8;
+    }
+    
+    
+        #esquerda{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 10px;
+        top: 420px;
+    
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.017em;
+    
+        color: #226ED8;
+        }
+
+        .modal-overlay {
+        z-index: 9999;
+        }
+
+        .center-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-110%, 5%);
+        width: 80%;
+        max-width: 315px;
+        max-height: 418px;
+        overflow-y: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .center-modal #descricao {
+        width: 100px;
+        }
+
+    /*frase*/
+        #fundo-frase.show{
+        position: absolute;
+        width: 315px;
+        height: 218px;
+        left: 30px;
+        top: 280px;
+
+        z-index: 9999;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        }
+
+        #fundo-frase #fechar-modal{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 270px;
+        top: 38px;
+
+        background: #FFFFFF;
+        border: 2px solid #226ED8;
+        border-radius: 20px;
+        }
+
+        #frase{
+        display: none;
+        }
+
+        #fundo-frase #frase{
+        position: absolute;
+        width: 275px;
+        height: 126px;
+        left: 40px;
+        top: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+
+        color: #141414;
+        }
+}

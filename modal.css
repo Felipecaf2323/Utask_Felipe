@@ -1,0 +1,243 @@
+/*MODAL*/
+#fundo-modal{
+    display: none;
+}
+
+
+#fundo-modal.mostrar{
+    position: absolute;
+    width: 474px;
+    height: 421px;
+    left: 403px;
+    top: 150px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    display: flex;
+}
+
+#nova{
+    position: absolute;
+    width: 106px;
+    height: 0px;
+    left: 184px;
+    top: 25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3867D6;
+}
+
+#titulo{
+    position: relative;
+    width: 374px;
+    height: 40px;
+    left: 55px;
+    top: 100px;
+
+    display: flex;
+
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+
+#descricao{
+    position: absolute;
+    width: 374px;
+    height: 90px;
+    left: 55px;
+    top: 180px;
+
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+
+#task{
+    position: absolute;
+    width: 374px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    background: #EEEEEE;
+    border: none;
+
+}
+
+
+#desc{
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    width: 374px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    background: #EEEEEE;
+    border: none;
+
+    align-items: center;
+}
+
+#circuloAzul{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid #3867D6;
+    border-radius: 20px;
+}
+
+#cima{
+    display: flex;
+    top: -40px;
+    color: #141414;
+}
+
+#baixo{
+    color: #141414;
+    top: -40px;
+}
+
+#fechar-modal{
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 350px;
+    top: -40px;
+    display: flex;
+    border: 2px solid #226ED8;
+    border-radius: 40px;
+}
+
+.material-icons.blue3867D6{ 
+    position: absolute;
+    color: #3867D6;
+    align-items: center;
+    display: flex;
+    left: 1.5px;
+}
+
+#enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 374px;
+    height: 41px;
+    left: 55px;
+    top: 325px;
+
+    background: linear-gradient(90.35deg, #4890F5 0%, #226ED8 99.7%);
+    border-radius: 20px;
+}
+
+
+
+
+/*a partir daqui é o que aparece no fundoBranco1*/
+
+.task-text {
+    position: absolute;
+    width: 192px;
+    height: 25px;
+    left: 12px;
+    top: -10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;    
+    display: flex;
+    align-items: center;
+    
+    color: #141414;
+  }
+
+
+  .desc{
+    position: absolute;
+    width: 163px;
+    height: 36px;
+    left: 12px;
+    top: 39px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #141414;
+  }
+
+
+  .botao{
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 12px;
+    top: 43px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+
+    color: #141414;
+
+  }
+
+
+
+
+
+
+
+
+
+
+

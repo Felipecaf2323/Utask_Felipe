@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="dark">
+    <head>
+        <title>uTask 3.0</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="aplicativo inovador para planejamento e gerenciamento de tarefas"/>
+        <meta name="keywords" content="planejamento, gerenciamento, tarefas"/>
+        <meta name="author" content="Felipe Seugling"/>
+      
+        <meta name="viewport" content="width=device-width">
+
+        <meta http-equiv="refresh" content="1000" />
+        
+        <link rel="stylesheet" href="dark_mode.css">
+        <link rel="stylesheet" type="text/css" href="uTask.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" typer="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="media-query.css">
+        <link rel="stylesheet" href="modal.css">
+    
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <script src="script.js" defer></script>
+    </head>
+    
+    <body class="dark">
+
+        <header class="dark-header">
+            <h1>uTask 3.0</h1>
+                <img id="logo" src="[Imagem] Logo branca.png" alt="Logo da Unect">
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <label for="change-theme" class="switch">
+                    <span class="slider"><img id="light_mode" src="light_mode.png" alt="modo claro"></span>
+                </label>
+            </header>
+
+        <article id="secao_frase_do_dia">
+            <button id="big_rectangle"></button>
+            <p id="frase_do_dia"><strong>Frase do dia</strong></p>
+            <p id="frase">Se você quer um pedacinho do paraíso, acredite em Deus. Mas se você<br>quer conquistar o mundo, acredite em você porque Deus já te deu tudo o<br>que você precisa para você vencer.</p>
+
+            <div id="fundo-frase"></div>
+
+            <div id="medium_rectangle"></div>
+            <div id="small_rectangle"></div>
+            <img id="lampada" src="bulb.png" alt="lâmpada">
+        </article>
+
+            <section> 
+                <button id="big_circle">
+                    <span class="material-icons blue3867D6">add</span>
+                </button>
+
+                <h2><strong>A fazer</strong></h2>
+                <div id="fundoCinza1" onclick="descer()" style="display: flex; flex-direction: column;"></div>
+
+                <h3><strong>Em andamento</strong></h3>
+                <div id="fundoCinza2"></div>
+
+                <h4><strong>Feito</strong></h4>
+                <div id="fundoCinza3">
+
+            </section>
+
+            <div id="excluir"></div>
+            <!--modal-->
+            <div id="fundo-modal" class="center-modal modal-overlay"  >
+                
+                <p id="nova"><u>Nova Task</u></p>
+
+                <div id="titulo">
+
+                    <button id="fechar-modal">
+                        <div class="circuloAzul"></div>
+                        <span class="material-icons blue3867D6">close</span>
+                    </button>
+
+                    <p id="cima"><Strong>Título</Strong></p>
+
+                    <input id="task" type="text" placeholder="Insira a nova tarefa">
+                </div>
+                
+                <div id="descricao">
+                    <p id="baixo"><strong>Descrição</strong></p>
+                    <input type="text" id="desc" placeholder="Insira a descrição">
+                </div>
+
+                <button id="enviar" style="color: white; font-family: 'Poppins'">Criar task</button>
+            </div>
+
+            <!--carrosel-->
+            <button id="direita"><span class="material-icons blue3867D6">navigate_next</span></button>
+            <button id="esquerda"><span class="material-icons blue3867D6">navigate_before</span></button>
+
+        <footer>
+            <p id="rodape">© Processo de Trainee <strong>Unect Jr.</strong> 2023.1</p>
+            <p id="p2">Feito com</p>
+            <img id="coracao" src="favorite.png" alt="">
+            <p id="p3">por <strong> Felipe Seugling</strong></p>
+        </footer>
+    </body>
+</html>
